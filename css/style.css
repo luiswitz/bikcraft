@@ -49,6 +49,10 @@ p {
   margin: 8px auto;
 }
 
+img {
+  display: block;
+}
+
 /* Header styles */
 .header {
   width: 100%;
@@ -199,4 +203,53 @@ p {
 
 .portfolio .call-to-action p {
   color: #ffffff;
+}
+
+/* Quality */
+
+.quality {
+  padding: 60px 0;
+}
+
+.quality:after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.png") no-repeat center;
+  position: absolute;
+  top: 229px;
+  right: 162px;
+  z-index: -1;
+}
+
+.quality-list {
+  padding-top: 10px;
+}
+
+.quality img {
+  margin: 0 auto;
+}
+
+.quality-list li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.quality-list li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+}
+
+.quality-list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 6px auto;
 }
