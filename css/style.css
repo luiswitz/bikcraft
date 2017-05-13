@@ -1,10 +1,10 @@
 /* General styles */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-  font-family: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 .btn {
@@ -252,4 +252,76 @@ img {
   height: 3px;
   background: #000000;
   margin: 6px auto;
+}
+
+.break {
+  width: 100%;
+  height: 220px;
+  background: url('../img/bg-footer.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.break .external-quote {
+  max-width: 400px;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #fec63e;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content:"";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 6px 0 12px 0;
+}
+
+.history-footer {
+  padding-right: 40px;
+}
+
+.contact-footer ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.social-media-footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-footer ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+}
+
+.social-media-footer ul li a:hover {
+  border-color: #ffffff;
+}
+
+.copyright {
+  width: 100%;
+  color: #000000;
+  padding: 20px 0;
+  background: #fec63e;
+  bottom: 0;
 }
