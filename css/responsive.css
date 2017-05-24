@@ -1,6 +1,23 @@
 /* Tablet styles */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+  .quality:after {
+    right: 66px;
+  }
 
+  .quality-list li {
+    padding: 0 10px;
+  }
+
+  .social-media-footer ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 6px
+  }
+
+  .social-media-footer ul li a img {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 /* Smartphone Styles */
@@ -45,7 +62,19 @@
     padding-top: 0px;
   }
 
+  .introduction h1 {
+    font-size: 36px;
+  }
+
   .external-quote {
     margin-bottom: 30px;
+  }
+
+  .call-to-action {
+    padding-top: 10px;
+  }
+
+  .quality:after {
+    display: none;
   }
 }
