@@ -165,4 +165,9 @@
   .footer {
     height: 437px;
   }
+
+  .contact-form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
 }
