@@ -18,6 +18,28 @@
     width: 26px;
     height: 26px;
   }
+
+  /* Products */
+  .product-item h2 {
+    top: -150px;
+    margin-bottom: -56px;
+  }
+
+  .product-item {
+    padding: 41px 0;
+  }
+
+  .product-info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 20px 30px;
+  }
+
+  .product-info ul li {
+    width: 181px;
+    height: 49px;
+  }
 }
 
 /* Smartphone Styles */
@@ -99,5 +121,48 @@
   .mission-about ul li {
     font-size: 14px;
     line-height: 25px;
+  }
+
+
+  /* Products */
+  .product-item h2 {
+    top: -120px;
+    margin-bottom: -68px;
+  }
+
+  .product-item {
+    padding: 41px 0;
+  }
+
+  .product-info p {
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    padding: 20px 30px;
+    margin-bottom: 0px;
+  }
+
+  .product-info ul {
+    margin-top: 0px;
+  }
+
+  .product-info ul li {
+    width: 149px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 14px;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .budget-data  ul {
+    padding-right: 0px;
+  }
+
+  .footer {
+    height: 437px;
   }
 }
